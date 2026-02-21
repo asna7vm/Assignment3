@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-image: linear-gradient(to right top, #000b1c, #082334, #073a4c, #045263, #0d6c76);
+color: #fff;
+}
+header{
+    background-image: linear-gradient(to right top, #010c1d, #003e5e, #00778e, #00b296, #12eb77);
+    color: whitesmoke;
+    padding: 20px;
+
+}
+
+nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+.nav-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-menu a:hover{
+    color: blueviolet;
+}
+main{
+    width: 75%;
+    margin: 10px auto;
+    padding: 50px;
+}
+section{
+    margin-bottom: 50px;
+
+}
+
+section h2{
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+.hero{
+    background-image: linear-gradient(to right top, #000b1c, #162c3d, #2a4e5f, #407280, #5b99a0);
+
+    text-align: center;
+font-size: 18px;
+padding: 20px;
+}
+.hero img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.hero p{
+    padding: 20px;
+}
+.project-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-card
+{
+   
+box-shadow: 0 4px 8px 0 rgb(0, 0,0.2);
+transform: 0.3s;
+width: 40%;
+}
+.project-card img{
+    padding: 30px;
+    width: 100%;
+    height: 310px;
+}
+.container{
+    text-align: center;
+    padding: 2px 16px;
+}
+.project-card2{
+    box-shadow: 0 4px 8px 0 rgb(0, 0,0.2);
+transform: 0.3s;
+width: 40%;
+}
+.project-card2 img{
+     padding: 30px;
+    width: 100%;
+    height: 310px;
+}
+.contact-form{
+    margin: 10px auto;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid wheat;
+    background-image: linear-gradient(to right top, #000b1c, #162c3d, #2a4e5f, #407280, #5b99a0);
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+label{
+    min-width: 48%;
+    margin-bottom: 30px;
+}
+input{
+    min-width: 45%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+textarea{
+    min-width: 45%;
+  height: 150px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+.button{
+width: 100%;
+  background-color: #667a93;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer{
+    border-top:3px solid #000b1c;
+}
+footer p{
+    
+    align-content: center;
+    width: 75%;
+    margin: 30px auto;
+}
